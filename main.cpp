@@ -11,16 +11,19 @@ public:
         return 0; 
     }
 
-    // Методи, які реалізує нBodnar
     double subtract(double a, double b) {
-        return 0; 
+        return a - b;
     }
     double divide(double a, double b) {
-        return 0; 
+        if (b != 0) return a / b;
+        return 0;
     }
 };
 
 int main() {
     cout << "Calculator Project Initialized" << endl;
+    cout << " Тести Bodnar " << endl;
+    cout << "Subtraction: " << a << " - " << b << " = " << calc.subtract(a, b) << endl;
+    cout << "Division: " << a << " / " << b << " = " << calc.divide(a, b) << endl;
     return 0;
 }
