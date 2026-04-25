@@ -31,6 +31,10 @@ int main() {
     cout << "Division: " << a << " / " << b << " = " << calc.divide(a, b) << endl;
     cout << "Example of Igor cout" << endl;
     cout << "Example of Igor cout" << endl;
+    cout << "Example of Igor cout" << endl;
+    cout << "Example of Igor cout" << endl;
+    cout << "Example of Igor cout" << endl;
+    cout << "Example of Igor cout" << endl;
 
 
     return 0;
