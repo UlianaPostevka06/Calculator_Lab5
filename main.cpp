@@ -18,19 +18,13 @@ public:
         if (b != 0) return a / b;
         return 0;
     }
-    double divide(double a, double b) {
-        if (b == 0) {
-            cout << "Error: Division by zero!" << endl;
-            return 0;
-        }
-        return a / b;
-    }
 };
 
 int main() {
     cout << "Calculator Project Initialized" << endl;
-    cout << " Тести Bodnar " << endl;
+    cout << " Test Bodnar " << endl;
     cout << "Subtraction: " << a << " - " << b << " = " << calc.subtract(a, b) << endl;
     cout << "Division: " << a << " / " << b << " = " << calc.divide(a, b) << endl;
+    cout << "Example of Igor cout" << endl;
     return 0;
 }
