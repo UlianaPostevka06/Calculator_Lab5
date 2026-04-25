@@ -29,6 +29,7 @@ int main() {
     cout << "--- Tests Postevka ---" << endl;
     cout << "Addition: " << a << " + " << b << " = " << calc.add(a, b) << endl;
     cout << "Multiplication: " << a << " * " << b << " = " << calc.multiply(a, b) << endl;
+    cout << "The example of Ulyana" << endl;
 
     cout << "--- Tests Bodnar ---" << endl;
     cout << "Subtraction: " << a << " - " << b << " = " << calc.subtract(a, b) << endl;
@@ -36,3 +37,4 @@ int main() {
 
     return 0;
 }
+
