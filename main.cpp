@@ -24,7 +24,9 @@ int main() {
     Calculator calc;
     double a = 10, b = 5;
 
-    cout << "Тести Postevka" << endl;
+    cout << "Test Postevka" << endl;
     cout << "Addition: " << a << " + " << b << " = " << calc.add(a, b) << endl;
     cout << "Multiplication: " << a << " * " << b << " = " << calc.multiply(a, b) << endl;
+    cout << "The example of Ulyana" << endl;
+
 }
