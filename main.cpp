@@ -5,10 +5,10 @@ class Calculator {
 public:
     // Методи, які реалізує Postevka
     double add(double a, double b) {
-        return 0; 
+        return a + b;
     }
     double multiply(double a, double b) {
-        return 0; 
+        return a * b;
     }
 
     // Методи, які реалізує нBodnar
@@ -21,6 +21,10 @@ public:
 };
 
 int main() {
-    cout << "Calculator Project Initialized" << endl;
-    return 0;
+    Calculator calc;
+    double a = 10, b = 5;
+
+    cout << "Тести Postevka" << endl;
+    cout << "Addition: " << a << " + " << b << " = " << calc.add(a, b) << endl;
+    cout << "Multiplication: " << a << " * " << b << " = " << calc.multiply(a, b) << endl;
 }
