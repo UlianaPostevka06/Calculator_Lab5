@@ -10,13 +10,20 @@ public:
     double multiply(double a, double b) {
         return 0; 
     }
-
+    // Методи, які реалізує нBodnar
     double subtract(double a, double b) {
         return a - b;
     }
     double divide(double a, double b) {
         if (b != 0) return a / b;
         return 0;
+    }
+    double divide(double a, double b) {
+        if (b == 0) {
+            cout << "Error: Division by zero!" << endl;
+            return 0;
+        }
+        return a / b;
     }
 };
 
