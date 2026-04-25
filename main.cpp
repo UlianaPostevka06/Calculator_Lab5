@@ -35,6 +35,7 @@ int main() {
     cout << "Example of Igor cout" << endl;
     cout << "Example of Igor cout" << endl;
     cout << "Example of Igor cout" << endl;
+    cout << "Example of Igor cout" << endl;
 
 
     return 0;
